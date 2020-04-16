@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		363E615324486F53000D3442 /* ViewSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363E615224486F53000D3442 /* ViewSwitcher.swift */; };
 		36CD133C24484641008DA630 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CD133B24484641008DA630 /* AppDelegate.swift */; };
 		36CD133E24484641008DA630 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CD133D24484641008DA630 /* ContentView.swift */; };
 		36CD13402448464B008DA630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36CD133F2448464B008DA630 /* Assets.xcassets */; };
 		36CD13432448464B008DA630 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36CD13422448464B008DA630 /* Preview Assets.xcassets */; };
 		36CD13462448464B008DA630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36CD13442448464B008DA630 /* Main.storyboard */; };
+		36CD134F24485057008DA630 /* HomeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CD134E24485057008DA630 /* HomeTab.swift */; };
+		36CD135124485065008DA630 /* SettingsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CD135024485065008DA630 /* SettingsTab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		363E615224486F53000D3442 /* ViewSwitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSwitcher.swift; sourceTree = "<group>"; };
 		36CD133824484641008DA630 /* TabView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36CD133B24484641008DA630 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36CD133D24484641008DA630 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +27,8 @@
 		36CD13452448464B008DA630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36CD13472448464B008DA630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36CD13482448464B008DA630 /* TabView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TabView.entitlements; sourceTree = "<group>"; };
+		36CD134E24485057008DA630 /* HomeTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTab.swift; sourceTree = "<group>"; };
+		36CD135024485065008DA630 /* SettingsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 			children = (
 				36CD133B24484641008DA630 /* AppDelegate.swift */,
 				36CD133D24484641008DA630 /* ContentView.swift */,
+				36CD134E24485057008DA630 /* HomeTab.swift */,
+				36CD135024485065008DA630 /* SettingsTab.swift */,
+				363E615224486F53000D3442 /* ViewSwitcher.swift */,
 				36CD133F2448464B008DA630 /* Assets.xcassets */,
 				36CD13442448464B008DA630 /* Main.storyboard */,
 				36CD13472448464B008DA630 /* Info.plist */,
@@ -145,6 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36CD135124485065008DA630 /* SettingsTab.swift in Sources */,
+				363E615324486F53000D3442 /* ViewSwitcher.swift in Sources */,
+				36CD134F24485057008DA630 /* HomeTab.swift in Sources */,
 				36CD133E24484641008DA630 /* ContentView.swift in Sources */,
 				36CD133C24484641008DA630 /* AppDelegate.swift in Sources */,
 			);
